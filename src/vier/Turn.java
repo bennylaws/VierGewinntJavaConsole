@@ -2,8 +2,10 @@ package vier;
 
 /**
  * 
- * @author ben This class checks for valid positions, sets chips, checks whether
- *         someone has won and turns the board by 90°
+ * @author ben
+ * 
+ *	This class checks for valid positions, sets chips, checks whether
+ *	someone has won and turns the board by 90° (not implemented yet)
  */
 
 public class Turn {
@@ -34,9 +36,9 @@ public class Turn {
 			
 			// game over
 			if (color == Board.red)
-				System.out.printf("********** Spieler 1 hat gewonnen :-) **********\n\n");
+				System.out.printf("********** Spieler 1 [X] hat gewonnen :-) **********\n\n");
 			else
-				System.out.printf("********** Spieler 2 hat gewonnen :-) **********\n\n");
+				System.out.printf("********** Spieler 2 [O] hat gewonnen :-) **********\n\n");
 		}
 
 		return true;
